@@ -1,0 +1,157 @@
+/* Your styles here */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E9EDEE;
+}
+
+
+header div:first-child{
+    background-color: #222F3F;
+    height: 50px;
+}
+
+header div img {
+    height: 30px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+header div:last-child{
+    background-color: #364757;
+    height: 30px;
+}
+
+header ul {
+    padding-top: 7px;
+}
+
+header ul a{
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+main {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+main #gift-cards {
+    box-sizing: border-box;
+    padding: 7px;
+    background-color: #F56600;
+    text-align: center;
+    height: 30px;
+}
+
+main #gift-cards a {
+    color: white;
+    text-decoration: none;
+}
+
+main #titolo {
+    height: 195px;
+    background-image: url(../images/bg-image.png);
+    margin-top: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 60px;
+}
+
+main #titolo h1 {
+    font-weight: 700;
+    color: white;
+    font-size: 2.5em;
+}
+
+main #titolo h2 {
+    font-weight: 700;
+    color: white;
+    font-size: 1.3em;
+    margin-top: 30px;
+}
+
+main article {
+    margin-top: 30px;
+    background-color: white;
+    height: 520px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main #sottotitolo {
+    margin-bottom: 25px;
+}
+
+main h2 {
+    display: inline-block;
+    font-size: 1.5em;
+    margin-right: 15px;
+    margin-left: 45px;
+    font-weight: 600;
+}
+
+main a {
+    font-size: 1.2em;
+    font-weight: 700;
+    text-decoration: none;
+    color: #006a9b;
+}
+
+main #images {
+    text-align: center;
+}
+
+main div img {
+    height: 470px;
+    width: 22%;
+    object-fit: cover;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2);
+}
+
+main #meta-quest {
+    margin-top: 40px;
+    width: 100%;
+}
+
+main .address {
+    margin-top: 5px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+footer #return-top {
+    background-color: #364759;
+    height: 55px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+
+footer a {
+    color: white;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+footer #logo {
+    background-color: #222F3F;
+    text-align: center;
+    height: 250px;
+}
+
+footer #logo img {
+    height: 80px;
+    margin-top: 90px;
+}
+
